@@ -1,26 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
-   <title>CyberHub</title>
-   
-    <meta name="Home Page" content="the websites home page">
-    <meta name="keywords" content="html tutorial template">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Home</span>
-        <span class="navbar-brand mb-0 h1">Videos</span>
-        <span class="navbar-brand mb-0 h1">Whipe Papers</span>
-        <span class="navbar-brand mb-0 h1">Learn</span>
-        <span class="navbar-brand mb-0 h1">Road Map</span>
-      </nav>
-    </header>
-  Content goes here.
-  </body>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Threat Hunting</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light " id="navigation">
+            <a class="navbar-brand mr-auto">Cyber Threat Hunting</a>
+            <ul class="navbar-nav justify-content-end" id="navtext">
+                <li class="nav-item m-1" id="navbar-nav">6 Step Process</li>
+                <li class="nav-item m-1" id="navbar-nav">Resources</li>
+                <li class="nav-item m-1" id="navbar-nav">YouTube Videos</li>
+                <li class="nav-item m-1" id="navbar-nav">Tools</li>
+                <li class="nav-item m-1" id="navbar-nav">Contact Us</li>
+            </ul>
+        </nav>
+    </div>
+    <!-- This is the header of the page -->
+    <div class="" id="intro">
+        <h1>Cyber Threat Hunting</h1>
+        <p>Threat hunting involves hypothesizing about attackers behavior and verifying the hypothesis in your environment proactively rather than passively.</p>
+    </div>
+    <hr>
+    <div class="jumbotron">
+        <h1 class="display-4">Hunt Team Roles</h1>
+        <p class="lead">These are the positions that will make up your team. Look for personel with either tallents or passions allocated towards these roles.</p>
+        <hr class="my-4">
+        <p>Click below to learn more about what makes up these roles within the team.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Security</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Threat Detection</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button">IT Operations</a>
+    </div>
+    <!-- close header -->
+    <hr>
+    <!-- 6 step process -->
+    <h1 class="text-center">6 Step Process to Hunting</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 1 - Propose Your Hypothesis</h5>
+                    <p class="card-text">State a reasonable assumption about one or more of your adversaries and techniques they might use to persist in your environment.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 2 - Identify Evidence to Prove Hypothesis</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 3 - Develop Analytics</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 4 - Automate</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 5 - Document!</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="card col-3 m-4" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Step 6 - Communicate and Report </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end 6 step process -->
+    <hr>
+    <!-- measuring the hunt -->
+    <div>
+        <h2>Measuring the Hunt</h2>
+        <ul>
+            <li>If you can't measure your hunts then you won't know which ones are successful or if your team is improving</li>
+            <li>Measuring should be discussed in the development phase</li>
+            <li>Click here to see all more information on measuring your hunt.</li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2>There are a lot of guides out there! Find the best ones here.</h2>
+        <!-- add in a button or something to allow them to click and go to the guides page -->
+    </div>
+</body>
+
 </html>
